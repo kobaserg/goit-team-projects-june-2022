@@ -2209,19 +2209,19 @@ li {
 }
 
 .contacts__list {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .contacts__list {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     display: flex;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .contacts__list {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     display: flex;
   }
 }
@@ -3181,6 +3181,10 @@ li {
   }
 }
 
+.franchise__poll {
+  padding: revert;
+}
+
 @media screen and (max-width: 767.98px) {
   .franchise__poll {
     letter-spacing: .04em;
@@ -3995,19 +3999,19 @@ li {
 }
 
 .contacts__list {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .contacts__list {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     display: flex;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .contacts__list {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     display: flex;
   }
 }

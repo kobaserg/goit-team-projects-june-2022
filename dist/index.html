@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="best ice cream website">
     <title>Ice Cream</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-
+    
     <link rel="icon ice-cream" type="image/png" href="/favicon.c3d66290.png">
     <link rel="stylesheet" href="/index.b07a87f3.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -25,7 +25,7 @@
             <img src="/logo.0e4a6d8b.svg" alt="Логотип">
           </a>
           <button type="button" class="header-mobile-menu-btn" aria-expanded="false" data-menu-button="">
-            <svg class="header-mobile-btn-icon" width="20" height="20" aria-label="Переключатель мобильного меню" aria-controls="header-menu">
+            <svg class="header-mobile-btn-icon" width="20" height="20" aria-label="Переключатель мобильного меню">
               <use href="/sprite.f14d31f7.svg#burger-test" class="header-icon-menu"></use>
               <use href="/sprite.f14d31f7.svg#cross-test" class="header-icon-close-menu"></use>
             </svg>
@@ -38,24 +38,24 @@
           </button>
           <ul class="header-menu-list">
             <li>
-              <a class="header-menu-link link" href="#body" close-home="">
+              <a class="header-menu-link link" href="#body" data-close-home="">
                 Home
               </a>
             </li>
             <li>
-              <a class="header-menu-link link" href="#about" close-about="">About us</a>
+              <a class="header-menu-link link" href="#about" data-close-about="">About us</a>
             </li>
             <li>
-              <a class="header-menu-link link" href="#made" close-made="">
+              <a class="header-menu-link link" href="#made" data-close-made="">
                 How it's made?
               </a>
             </li>
             <li>
-              <a class="header-menu-link link" href="#products" close-products="">Our products
+              <a class="header-menu-link link" href="#products" data-close-products="">Our products
               </a>
             </li>
             <li>
-              <a class="header-menu-link link" href="#contact" close-contact="">Contact</a>
+              <a class="header-menu-link link" href="#contact" data-close-contact="">Contact</a>
             </li>
           </ul>
         </div>
@@ -105,7 +105,7 @@
           </label>
         </div>
         <label class="header-modal-form-unit">
-          <span class="header-modal-form__item">Comment</span>
+          <span class="header-modal-form__item">Address</span>
           <textarea class="header-modal-form__input header-modal-form__comment" name="input-modal" placeholder="Add your comment"></textarea>
         </label>
       </div>
@@ -152,11 +152,9 @@
 </section>
 
         <!-- Products -->
-
 <section class="section products">
   <div class="container container-products">
     <div class="anchor" id="products"></div>
-
     <p class="products__lable">100% natural</p>
     <h2 class="products__title">products</h2>
 
@@ -170,7 +168,7 @@
               eiusmod tempor incididunt ut labore et. dolore magna aliqua
               facilisis.
             </p>
-            <button type="button" class="product__button">
+            <button type="button" class="product__button" aria-label="go to back product">
               <svg class="product__icon">
                 <use href="/products_icon.791feb24.svg#icon-arrow-right"></use>
               </svg>
@@ -191,7 +189,7 @@
               <p class="ingredients__tagline">Made with love!</p>
               <p class="ingredients__impulse">It's delicious!</p>
             </div>
-            <button type="button" class="product__button--back">Buy now</button>
+            <button type="button" class="product__button--back" aria-label="buy product">Buy now</button>
           </div>
         </div>
       </li>
@@ -204,7 +202,7 @@
               eiusmod tempor incididunt ut labore et. dolore magna aliqua
               facilisis.
             </p>
-            <button type="button" class="product__button">
+            <button type="button" class="product__button" aria-label="go to back product">
               <svg class="product__icon">
                 <use href="/products_icon.791feb24.svg#icon-arrow-right"></use>
               </svg>
@@ -225,7 +223,7 @@
               <p class="ingredients__tagline">Made with love!</p>
               <p class="ingredients__impulse">It's delicious!</p>
             </div>
-            <button type="button" class="product__button--back">Buy now</button>
+            <button type="button" class="product__button--back" aria-label="buy product">Buy now</button>
           </div>
         </div>
       </li>
@@ -238,7 +236,7 @@
               eiusmod tempor incididunt ut labore et. dolore magna aliqua
               facilisis.
             </p>
-            <button type="button" class="product__button">
+            <button type="button" class="product__button" aria-label="go to back product">
               <svg class="product__icon">
                 <use href="/products_icon.791feb24.svg#icon-arrow-right"></use>
               </svg>
@@ -259,7 +257,7 @@
               <p class="ingredients__tagline">Made with love!</p>
               <p class="ingredients__impulse">It's delicious!</p>
             </div>
-            <button type="button" class="product__button--back">Buy now</button>
+            <button type="button" class="product__button--back" aria-label="buy product">Buy now</button>
           </div>
         </div>
       </li>
@@ -268,7 +266,7 @@
   <script src="/index.e5e95213.js"></script>
 </section>
         
-<section class="about-section">
+
 <section class="about-section">
   <div class="anchor" id="made"></div>
 
@@ -314,7 +312,7 @@
 
   </div>
 </div>
-</section>
+
         
 <section class="advantages section">
   <div class="anchor" id="about"></div>
@@ -579,14 +577,16 @@
             <div class="contacts__card-date">
                 <p class="contacts__card-item">
                     <span class="contacts__card-day">Monday - Friday</span>
-                    <time datetime="06:00 AM - 10:00 PM">
-                    <span class="contacts__card-time">06:00 AM - 10:00 PM</span></time></p>
+                  
+                    <span class="contacts__card-time">06:00 AM - 10:00 PM</span>
+                  
+                </p>
 
                 <p class="contacts__card-item">
                     <span class="contacts__card-day">Saturday - Sunday</span>
-                    <time datetime="08:00 AM - 16:00 PM">
+                    
                         <span class="contacts__card-time">08:00 AM - 16:00 PM</span>
-                        </time></p>
+                        </p>
                
             </div>
            <address class="contacts__adress">
@@ -604,15 +604,15 @@
             <div class="contacts__card-date">
                 <p class="contacts__card-item">
                     <span class="contacts__card-day">Monday - Friday</span>
-                    <time datetime="06:00 AM - 10:00 PM">
-                        <span class="contacts__card-time">06:00 AM - 10:00 PM</span></time>
+                   
+                        <span class="contacts__card-time">06:00 AM - 10:00 PM</span>
                 </p>
             
                 <p class="contacts__card-item">
                     <span class="contacts__card-day">Saturday - Sunday</span>
-                    <time datetime="08:00 AM - 16:00 PM">
+                    
                         <span class="contacts__card-time">08:00 AM - 16:00 PM</span>
-                    </time>
+                    
                 </p>
             
             </div>
@@ -632,15 +632,15 @@
             <div class="contacts__card-date">
                 <p class="contacts__card-item">
                     <span class="contacts__card-day">Monday - Friday</span>
-                    <time datetime="06:00 AM - 10:00 PM">
-                        <span class="contacts__card-time">06:00 AM - 10:00 PM</span></time>
+                    
+                        <span class="contacts__card-time">06:00 AM - 10:00 PM</span>
                 </p>
             
                 <p class="contacts__card-item">
                     <span class="contacts__card-day">Saturday - Sunday</span>
-                    <time datetime="08:00 AM - 16:00 PM">
+                    
                         <span class="contacts__card-time">08:00 AM - 16:00 PM</span>
-                    </time>
+                  
                 </p>
             
             </div>
@@ -657,14 +657,14 @@
     <div class="footer__button-list">
       <button class="footer__button-locations" type="button" data-modal-location-open="">
         Our Locations
-        <svg class="footer__button-svg" width="10px" height="12px">
-          <use href="/arrow-button.f8924630.svg#icon-arrow-button"></use>
+        <svg class="footer__button-svg" width="20px" height="20px">
+          <use href="/vector.1db44deb.svg#chevron-right"></use>
         </svg>
       </button>
       <button class="footer__button-franchise " type="button" aria-label="franchise" data-modal-franchise-open="">
         Franchise
-        <svg class="footer__button-svg" width="10px" height="12px">
-          <use href="/arrow-button.f8924630.svg#icon-arrow-button"></use>
+        <svg class="footer__button-svg" width="20px" height="20px">
+          <use href="/vector.1db44deb.svg#chevron-right"></use>
         </svg>
       </button>
     </div>
@@ -728,13 +728,10 @@
   </div>
 
 
-        <a href="" class="button-up" aria-label="scroll to top">
+        <a href="#" class="button-up" aria-label="scroll to top">
     <img class="ice-icon" src="/ice-scroll.e0cfc122.png" aria-label="scroll to top" alt="ice-icon">
 </a>
-
-        <script src="/index.a3a51be6.js"></script>
-        <script src="/index.d6b62af9.js"></script>
-        <script src="/index.0ba1dfa7.js"></script>
+ 
       </main>
     <footer class="footer">
     <div class="footer__container container">
@@ -784,5 +781,8 @@
     </div>
 
 </footer>
+      <script src="/index.a3a51be6.js"></script>
+      <script src="/index.d6b62af9.js"></script>
+      <script src="/index.0ba1dfa7.js"></script>
   </body>
 </html>

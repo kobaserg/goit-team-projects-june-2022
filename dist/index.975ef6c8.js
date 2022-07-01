@@ -506,11 +506,11 @@ function hmrAcceptRun(bundle, id) {
 (()=>{
     const menuBtnRef = document.querySelector("[data-menu-button]");
     const mobileMenuRef = document.querySelector("[data-menu]");
-    const mobileMenuCloseHome = document.querySelector("[close-home");
-    const mobileMenuCloseAbout = document.querySelector("[close-about");
-    const mobileMenuCloseMade = document.querySelector("[close-made");
-    const mobileMenuCloseProducts = document.querySelector("[close-products");
-    const mobileMenuCloseContact = document.querySelector("[close-contact");
+    const mobileMenuCloseHome = document.querySelector("[data-close-home]");
+    const mobileMenuCloseAbout = document.querySelector("[data-close-about]");
+    const mobileMenuCloseMade = document.querySelector("[data-close-made]");
+    const mobileMenuCloseProducts = document.querySelector("[data-close-products]");
+    const mobileMenuCloseContact = document.querySelector("[data-close-contact]");
     menuBtnRef.addEventListener("click", ()=>{
         const expanded = menuBtnRef.getAttribute("aria-expanded") === "true" || false;
         menuBtnRef.classList.toggle("is-open");
