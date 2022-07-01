@@ -1,18 +1,18 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-team-projects-june-2022",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Nikolay-Akymenko.io/ice-cream",
+  "homepage": "https://github.com/kobaserg/goit-team-projects-june-2022",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ice-cream/"
+    "build": "parcel build src/*.html --public-url /goit-team-projects-june-2022/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/kobaserg/goit-team-projects-june-2022.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"

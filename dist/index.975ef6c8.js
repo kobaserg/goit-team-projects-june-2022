@@ -584,6 +584,6 @@ var swiper = new Swiper(".mySwiper", {
     speed: 2000
 });
 
-},{}]},["1RB6v","8lqZg"], "8lqZg", "parcelRequired7c6")
+},{}]},["1RB6v","8lqZg"], "8lqZg", "parcelRequired05e")
 
 //# sourceMappingURL=index.975ef6c8.js.map
